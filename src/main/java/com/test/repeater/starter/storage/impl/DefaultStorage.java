@@ -9,6 +9,7 @@ import java.util.Map;
 
 /**
  * @author dingshangping
+ * 默认实现为单击缓存，数据缓存在内存中。分布式环境下需要自定义实现缓存，并通过spi注入
  * @date 10/1/21 1:23 下午
  */
 @Slf4j

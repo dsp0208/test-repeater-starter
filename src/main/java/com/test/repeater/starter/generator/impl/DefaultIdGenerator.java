@@ -5,6 +5,7 @@ import com.test.repeater.starter.util.SnowFlakeIdGenerator;
 
 /**
  * @author dingshangping
+ * 默认的id生成器优先解析入参，入参为单个String则作为key生成，否则采用雪花算法生成
  * @date 10/2/21 7:56 上午
  */
 public class DefaultIdGenerator implements IdGenerator {
